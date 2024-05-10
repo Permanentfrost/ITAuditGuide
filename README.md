@@ -1,30 +1,28 @@
 # ITAuditGuide
 
-This should be a Basic Guide of IT Audit-Best Practices. 
+This aims to be a guide to IT Audit-Best Practices. It is aimed at a company size of SME (Less than 250 people)
 
-Target size company are SME. 
-
-Standards used within:  
+Ressources and standards used within:  
 
 -ISA 315 (Revised 2019)
 
 -ISO27001
 
--NIST CSF
+-NIST CSF 2.0 (Cybersecurity Framework) 
 
--NIST 800-53 Publication 
+-NIST 800-53 Special Publication 
 
--NIST 800-63 Publication 
+-NIST 800-63 Special Publication 
 
 
 
 # Guide 
 
-Below is a Checklist/Guide that aims to provide concise starting point for needed documentation/proof during the audit. 
+Below is a Checklist/Guide that aims to provide concise walkthrough for needed documentation/proof during the audit. 
 
 ## General Process Information 
 
-What is the rough process / description here? 
+TBC on the General Process
 
 
 ## IT Operation
