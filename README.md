@@ -61,6 +61,9 @@ As such the rough timeline can be descriped as:
 
 Below is a guide that aims to provide **concise** walkthrough for needed documentation/proof during the audit. 
 
+> [!WARNING]  
+> Guide incomplete...to be finalized
+
 ## IT Operation
 
 #### IT environment / IT strategy / IT security concept / IT organization
@@ -72,13 +75,21 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
 -**How?**
  
 #### Hardware/ Networks
+
 #### Physical security
+
 #### Data backup and outsourcing procedures
+
 #### Measures for orderly regular operation and to ensure operational readiness
+
 #### Job scheduling
+
 #### Job Monitoring
+
 #### Intrusion Detection
+
 #### IT-Outsourcing
+
 #### Data protection organization
 
 ## Access Management
