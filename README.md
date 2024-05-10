@@ -14,16 +14,41 @@ Ressources and standards used within:
 
 -NIST 800-63 Special Publication 
 
+## General Process
+
+Before you jump right into the audit with the checklist, there are some key-things you need to be aware of. I'll try to list these below together with a rough outline of the audit timeline: From Start -> Finish. 
+
+### Audit Planning
+- **Scope Definition**: Clearly define what will be covered in the audit, including systems, processes, and locations.
+- **Objective Setting**: Outline the audit's objectives, which could include assessing risks, evaluating controls, or verifying compliance.
+- **Resource Allocation**: Determine the resources needed, including team members, tools, time, and most important budget available. 
+- **Risk Assessment**: Identify potential risks that could impact the audit process.
+
+### Execution of the Audit
+- **Data Collection**: Gather evidence through interviews, observations, screenshots and document reviews.
+- **Testing**: Perform tests on IT controls to assess their effectiveness (Keywords: ITGC, ITAC).
+- **Analysis**: Analyze the data collected to identify any issues or areas for improvement.
+
+### Reporting
+- **Findings**: Document the audit findings, including any weaknesses or non-compliance issues.
+- **Recommendations**: Provide recommendations for addressing the findings.
+- **Action Plan**: Develop an action plan with timelines for implementing the recommendations.
+
+### Follow-Up
+- **Implementation Review**: Check whether the recommendations have been implemented effectively.
+- **Post-Implementation Audit**: If possible/necessaty conduct a follow-up audit to ensure that the changes have resulted in the desired improvements.
+
+### Continuous Improvement
+- **Feedback Loop**: Establish a mechanism for ongoing feedback and continuous improvement of the audit process.
+- **Update Audit Procedures**: Regularly update the audit procedures to reflect changes in technology, regulations, and business processes -> IT-moves at lightspeed ;).
+
+> [!IMPORTANT]  
+> Do not underestimate the Audit Planning. Always be in regular contact with the Lead-Auditor/Group Auditor for important information.  
 
 
 # Guide 
 
-Below is a Checklist/Guide that aims to provide concise walkthrough for needed documentation/proof during the audit. 
-
-## General Process Information 
-
-TBC on the General Process
-
+Below is a guide that aims to provide **concise** walkthrough for needed documentation/proof during the audit. 
 
 ## IT Operation
 
@@ -63,7 +88,7 @@ TBC on the General Process
 
 ## Interfaces
 
-##### Overview of the data flow between the individual sCOTABD-relevant systems
+##### Overview of the data flows
 ##### What data is transferred?
 ##### Documentation for checks / reconciliation checks regarding the (automatic and manual) data transfers
 ##### Automatic interfaces
@@ -73,4 +98,7 @@ TBC on the General Process
 
 
 
+# Glossary
+
+Goal: Standardize all used Terms here. 
 
