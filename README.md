@@ -42,8 +42,19 @@ Before you jump right into the audit with the checklist, there are some key-thin
 - **Feedback Loop**: Establish a mechanism for ongoing feedback and continuous improvement of the audit process.
 - **Update Audit Procedures**: Regularly update the audit procedures to reflect changes in technology, regulations, and business processes -> IT-moves at lightspeed ;).
 
+
 > [!IMPORTANT]  
-> Do not underestimate the Audit Planning. Always be in regular contact with the Lead-Auditor/Group Auditor for important information.  
+> Never underestimate good Audit Planning! Always keep in regular contact with the Lead-Auditor for important information.  
+
+As such the rough timeline can be descriped as: 
+
+```
+1. Kick-off internal (Audit Lead and IT-Auditor) 
+2. Kick off external (IT Auditor and client)
+3. Audit Process and Document Review
+4. Finalize and communicate results to client / review possibility 
+5. Finalize and communicate results to Audit Lead
+```
 
 
 # Guide 
