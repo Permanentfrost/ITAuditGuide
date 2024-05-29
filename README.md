@@ -61,68 +61,188 @@ As such the rough timeline can be descriped as:
 
 Below is a guide that aims to provide **concise** walkthrough for needed documentation/proof during the audit. 
 
-> [!WARNING]  
+> [!NOTE]  
 > Guide incomplete...to be finalized
 
-## IT Operation
 
-#### IT environment / IT strategy / IT security concept / IT organization
+### IT Operation
 
--**What to check?**
+#### IT Environment / IT Strategy / IT Security Concept / IT Organization
 
--**Why?**
+- [ ] Describe the current IT environment.
+- [ ] Outline the IT strategy.
+- [ ] Provide the IT security concept.
+- [ ] Detail the IT organization structure.
 
--**How?**
- 
-#### Hardware/ Networks
+#### Hardware / Networks
 
-#### Physical security
+- [ ] Inventory of all hardware.
+- [ ] Network diagrams and configurations.
+- [ ] Maintenance schedules and logs.
 
-#### Data backup and outsourcing procedures
+#### Physical Security
 
-#### Measures for orderly regular operation and to ensure operational readiness
+- [ ] Physical security measures in place.
+- [ ] Access control systems.
+- [ ] Surveillance and monitoring systems.
 
-#### Job scheduling
+#### Data Backup and Outsourcing Procedures
+
+- [ ] Data backup policies and procedures.
+- [ ] Outsourcing agreements and policies.
+
+#### Measures for Orderly Regular Operation and to Ensure Operational Readiness
+
+- [ ] Standard operating procedures (SOPs).
+- [ ] Disaster recovery plans.
+- [ ] Business continuity plans.
+
+#### Job Scheduling
+
+- [ ] Job scheduling policies.
+- [ ] Automated job scheduling systems.
 
 #### Job Monitoring
 
+- [ ] Monitoring tools and processes.
+- [ ] Incident management logs.
+
 #### Intrusion Detection
 
-#### IT-Outsourcing
+- [ ] Intrusion detection systems (IDS) in place.
+- [ ] Logs and reports from IDS.
 
-#### Data protection organization
+#### IT Outsourcing
 
-## Access Management
+- [ ] Outsourcing agreements.
+- [ ] Service Level Agreements (SLAs).
+
+#### Data Protection Organization
+
+- [ ] Data protection policies.
+- [ ] Data protection officer (DPO) contact details.
+
+### Access Management
 
 #### Authentication
+
+- [ ] Authentication mechanisms (e.g., 2FA, SSO).
+- [ ] User access review logs.
+
 #### User Application Process
+
+- [ ] User application process documentation.
+- [ ] User provisioning and de-provisioning logs.
+
 #### Password & Account Lockout Policies (Parameter Settings)
-#### Authorization concept (need-to-know principle, separation of functions, etc.)
-#### Administrative rights, privileged users
-#### Critical operating system level permissions
-#### Access databases
-#### Access network
 
-## Change Management
+- [ ] Password policies.
+- [ ] Account lockout policies.
 
-#### Concept / process documentation for change management
-#### Changes beyond the regular updates
-#### Approval process for changes
-#### Testing process and system
+#### Authorization Concept
+
+- [ ] Authorization concept (e.g., need-to-know principle, separation of functions).
+- [ ] Role-based access control (RBAC) documentation.
+
+#### Administrative Rights, Privileged Users
+
+- [ ] List of users with administrative rights.
+- [ ] Policies for managing privileged accounts.
+
+#### Critical Operating System Level Permissions
+
+- [ ] List of critical OS level permissions.
+- [ ] Review logs of permissions changes.
+
+#### Access Databases
+
+- [ ] Access control policies for databases.
+- [ ] Database access logs.
+
+#### Access Network
+
+- [ ] Network access control policies.
+- [ ] Network access logs.
+
+### Change Management
+
+#### Concept / Process Documentation for Change Management
+
+- [ ] Change management policies.
+- [ ] Documentation of change management process.
+
+#### Changes Beyond the Regular Updates
+
+- [ ] List of changes beyond regular updates.
+- [ ] Documentation of change approvals.
+
+#### Approval Process for Changes
+
+- [ ] Change approval workflow.
+- [ ] Logs of change approvals.
+
+#### Testing Process and System
+
+- [ ] Testing procedures.
+- [ ] Test environment documentation.
+
 #### Customizing
+
+- [ ] Documentation of system customizations.
+- [ ] Approval logs for customizations.
+
 #### Parameterization
-#### Effectiveness of the change management process
-#### Data conversions
 
-## Interfaces / APIs
+- [ ] Parameterization policies.
+- [ ] Parameter changes logs.
 
-#### Overview of the data flows
-#### What data is transferred?
-#### Documentation for checks / reconciliation checks regarding the (automatic and manual) data transfers
-#### Automatic interfaces
-#### Semi-automated interfaces
-#### Manual interfaces
-#### Identification of faulty batch runs
+#### Effectiveness of the Change Management Process
+
+- [ ] Metrics for assessing change management effectiveness.
+- [ ] Review reports of change management process.
+
+#### Data Conversions
+
+- [ ] Documentation of data conversion processes.
+- [ ] Logs of data conversion activities.
+
+### Interfaces / APIs
+
+#### Overview of the Data Flows
+
+- [ ] Data flow diagrams.
+- [ ] Documentation of data flows between systems.
+
+#### What Data is Transferred?
+
+- [ ] List of data types transferred between systems.
+- [ ] Security measures for data transfers.
+
+#### Documentation for Checks / Reconciliation Checks Regarding the (Automatic and Manual) Data Transfers
+
+- [ ] Reconciliation check procedures.
+- [ ] Logs of reconciliation checks.
+
+#### Automatic Interfaces
+
+- [ ] Documentation of automatic interfaces.
+- [ ] Logs of interface operations.
+
+#### Semi-Automated Interfaces
+
+- [ ] Documentation of semi-automated interfaces.
+- [ ] Logs of semi-automated interface operations.
+
+#### Manual Interfaces
+
+- [ ] Documentation of manual interfaces.
+- [ ] Logs of manual interface operations.
+
+#### Identification of Faulty Batch Runs
+
+- [ ] Procedures for identifying faulty batch runs.
+- [ ] Logs of batch run errors and resolutions.
+
 
 
 
