@@ -28,6 +28,11 @@ Before you jump right into the audit with the checklist, there are some key-thin
 - **Data Collection**: Gather evidence through interviews, observations, screenshots and document reviews.
 - **Testing**: Perform tests on IT controls to assess their effectiveness (Keywords: ITGC, ITAC).
 - **Analysis**: Analyze the data collected to identify any issues or areas for improvement.
+- **Sample-Testing**: Gather the relevant proof relating to the audit year and based on (control) quantity choose the sample count.
+
+**Quick Guide on how much**
+
+TBC
 
 ### Reporting
 - **Findings**: Document the audit findings, including any weaknesses or non-compliance issues.
@@ -55,7 +60,6 @@ As such the rough timeline can be descriped as:
 4. Finalize and communicate results to client / review possibility 
 5. Finalize and communicate results to Audit Lead
 ```
-
 
 # Guide 
 
@@ -189,6 +193,10 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
   - [ ] **Modification**: Changes to user access are documented and approved.
   - [ ] **Deactivation**: Deactivation of user access is promptly handled when no longer needed.
 
+> [!IMPORTANT]  
+> This section is optimal for audit sampling; request a year's worth of data for quantity-based audits.
+
+
 ### Password & Account Lockout Policies (Parameter Settings)
 
 - [ ] **Password Policies**
@@ -273,6 +281,9 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
 - [ ] **Change Documentation**
   - [ ] **Comprehensive Records**: All changes are documented with details on the nature of the change, reasons, and expected impact.
   - [ ] **Approval and Testing**: Documentation includes evidence of approval and results from testing before implementation.
+
+> [!IMPORTANT]  
+> This section is optimal for audit sampling; request a year's worth of data for quantity-based audits.
 
 ### Approval Process for Changes
 
