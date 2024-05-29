@@ -67,60 +67,103 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
 
 ### IT Operation
 
-#### IT Environment / IT Strategy / IT Security Concept / IT Organization
 
-- [ ] Describe the current IT environment.
-- [ ] Outline the IT strategy.
-- [ ] Provide the IT security concept.
-- [ ] Detail the IT organization structure.
+## IT Operations
 
-#### Hardware / Networks
+### IT Environment / IT Strategy / IT Security Concept / IT Organization
 
-- [ ] Inventory of all hardware.
-- [ ] Network diagrams and configurations.
-- [ ] Maintenance schedules and logs.
+- [ ] **IT Strategy Documentation**
+  - [ ] **Existence**: An IT strategy is documented and in alignment with the corporate strategy.
+  - [ ] **Risk Awareness**: The strategy includes an awareness of possible risks from the use of IT.
+  - [ ] **Periodic Review**: The IT strategy is reviewed and updated periodically to adapt to changing business and technological landscapes.
 
-#### Physical Security
+- [ ] **IT Security Concept**
+  - [ ] **ISMS Implementation**: An Information Security Management System (ISMS) is in place and operational.
+  - [ ] **Security Measures**: Specific security measures such as virus protection, firewalls, DMZ (Demilitarized Zone), and intrusion detection systems are implemented and maintained.
+  - [ ] **Incident Response Plan**: There is a documented and tested incident response plan.
 
-- [ ] Physical security measures in place.
-- [ ] Access control systems.
-- [ ] Surveillance and monitoring systems.
+- [ ] **IT Organization**
+  - [ ] **Skill and Capacity**: The required skills and capacities to produce and maintain IT services are available within the organization.
+  - [ ] **Training Programs**: Employees undergo regular training to keep their skills up-to-date.
+  - [ ] **Reporting Channels**: Clear reporting channels are established.
+  - [ ] **Functional Separation**: The principle of functional separation is implemented to prevent conflicts of interest and reduce risk.
 
-#### Data Backup and Outsourcing Procedures
+### Hardware / Networks
 
-- [ ] Data backup policies and procedures.
-- [ ] Outsourcing agreements and policies.
+- [ ] **Inventory Management**
+  - [ ] **Inventory Records**: The IT infrastructure, including hardware, networks, and operating systems, is fully and accurately inventoried.
+  - [ ] **Update Frequency**: The inventory is regularly updated to reflect any changes.
+  - [ ] **Ownership and Accountability**: Each piece of hardware is assigned an owner responsible for its maintenance and security.
 
-#### Measures for Orderly Regular Operation and to Ensure Operational Readiness
+### Physical Security
 
-- [ ] Standard operating procedures (SOPs).
-- [ ] Disaster recovery plans.
-- [ ] Business continuity plans.
+- [ ] **Physical Protective Measures**
+  - [ ] **Premises Security**: Physical protective measures against burglary, theft, and vandalism are implemented.
+  - [ ] **Access Control**: Access to the premises is restricted to authorized personnel and access logs are maintained.
+  - [ ] **Monitoring and Testing**: Security measures are continuously monitored and regularly tested for effectiveness.
 
-#### Job Scheduling
+- [ ] **Environmental Controls**
+  - [ ] **Fire Protection**: Systems are in place to protect against fire, including alarms, extinguishers, and suppression systems.
+  - [ ] **Water and Temperature Control**: Measures to protect against water damage and to maintain appropriate temperature levels are in place.
+  - [ ] **Power Management**: Uninterruptible Power Supply (UPS) systems and redundant power sources are implemented to ensure continuous operation.
 
-- [ ] Job scheduling policies.
-- [ ] Automated job scheduling systems.
+### Data Backup and Outsourcing Procedures
 
-#### Job Monitoring
+- [ ] **Data Security Measures**
+  - [ ] **Backup Policies**: Data backup policies are documented and implemented.
+  - [ ] **Backup Frequency**: Regular backups are performed, and the frequency is aligned with business needs.
+  - [ ] **Monitoring**: Backup processes are logged and monitored for successful completion.
+  - [ ] **Restoration Testing**: Periodic tests of data restoration processes are conducted to ensure backups can be successfully restored.
 
-- [ ] Monitoring tools and processes.
-- [ ] Incident management logs.
+- [ ] **Outsourcing Procedures**
+  - [ ] **Vendor Selection**: Procedures for selecting outsourcing vendors are documented and include risk assessments.
+  - [ ] **Contract Management**: Contracts with outsourcing vendors include clear SLAs (Service Level Agreements) and security requirements.
+  - [ ] **Monitoring and Review**: Performance and security measures of outsourcing vendors are regularly monitored and reviewed.
 
-#### Intrusion Detection
+### Measures for Orderly Regular Operation and to Ensure Operational Readiness
 
-- [ ] Intrusion detection systems (IDS) in place.
-- [ ] Logs and reports from IDS.
+- [ ] **Operational Measures**
+  - [ ] **Emergency Operations**: Procedures for emergency operations supplement regular operations with organizational regulations and technical procedures to restore IT after failures.
+  - [ ] **Incident Management**: An incident management system is in place to log, classify, and process incidents promptly.
+  - [ ] **Problem Management**: Problem management processes are established to identify and resolve the root causes of incidents.
 
-#### IT Outsourcing
+- [ ] **Operational Integrity and Availability**
+  - [ ] **Integrity Measures**: Measures to ensure the integrity of IT systems are implemented.
+  - [ ] **Availability Measures**: Measures to ensure the availability of IT systems, such as redundancy and failover mechanisms, are in place.
 
-- [ ] Outsourcing agreements.
-- [ ] Service Level Agreements (SLAs).
+### Job Scheduling
 
-#### Data Protection Organization
+- [ ] **Access Controls for Job Scheduling**
+  - [ ] **Access Regulation**: Controls to regulate access to job controls or applications/tools that may interfere with financial reporting are established and effective.
+  - [ ] **Logging and Monitoring**: Access to job scheduling systems is logged and monitored for unauthorized access or changes.
 
-- [ ] Data protection policies.
-- [ ] Data protection officer (DPO) contact details.
+### Job Monitoring
+
+- [ ] **Monitoring Controls**
+  - [ ] **Job Processing Oversight**: Controls to oversee jobs processing financial reporting data are established and effective.
+  - [ ] **Alerting Mechanisms**: Alerting mechanisms are in place to notify relevant personnel of job processing issues.
+  - [ ] **Performance Metrics**: Job performance metrics are collected and analyzed to ensure efficient processing.
+
+### Intrusion Detection
+
+- [ ] **Intrusion Detection Systems**
+  - [ ] **Implementation**: Intrusion detection systems (IDS) are implemented to monitor the IT environment for vulnerabilities and intrusions.
+  - [ ] **Response Plan**: A response plan for detected intrusions is documented and tested.
+  - [ ] **Regular Updates**: IDS signatures and rules are regularly updated to recognize new threats.
+
+### IT Outsourcing
+
+- [ ] **Outsourcing Scope and Management**
+  - [ ] **Scope Definition**: The scope of IT outsourcing is clearly defined, including data center operations, shared service centers, business processes, and application development.
+  - [ ] **Risk Management**: Risks associated with outsourcing are identified, and compensating controls are implemented.
+  - [ ] **ICS Compliance**: Outsourced controls within the framework of the Internal Control System (ICS) are appropriate and effective (IDW PS 331 and IDW PS 951).
+
+### Data Protection Organization
+
+- [ ] **Data Protection Compliance**
+  - [ ] **Data Protection Officer**: A data protection officer has been appointed in accordance with legal requirements.
+  - [ ] **GDPR Compliance**: The organization meets the requirements of the GDPR and the BDSG.
+  - [ ] **Incident Response**: Procedures are in place to respond appropriately to data protection incidents.
 
 ### Access Management
 
