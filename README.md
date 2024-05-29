@@ -42,8 +42,6 @@ Before you jump right into the audit with the checklist, there are some key-thin
 | Daily  multiple times                              | 30                              | 30                                              | 1                                             |
 
 
-Diese Tabelle basiert auf den Informationen aus dem Bild, das du gesendet hast. Wenn du weitere Hilfe benötigst oder spezifische Anpassungen wünschst, lass es mich wissen! 😊
-
 ### Reporting
 - **Findings**: Document the audit findings, including any weaknesses or non-compliance issues.
 - **Recommendations**: Provide recommendations for addressing the findings.
