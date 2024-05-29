@@ -32,7 +32,17 @@ Before you jump right into the audit with the checklist, there are some key-thin
 
 **Quick Guide on how much**
 
-TBC
+| Frequency of executions in normal control measures | Sample size for manual controls | Sample size for digital controls (data analysis) | Sample size for digitally documented controls |
+|----------------------------------------------------|---------------------------------|-------------------------------------------------|-----------------------------------------------|
+| Annually                                           | 1                               | 1                                               | 1                                             |
+| Quarterly                                          | 2                               | 2                                               | 1                                             |
+| Monthly                                            | 3                               | 3                                               | 1                                             |
+| Weekly                                             | 10                              | 10                                              | 1                                             |
+| Daily                                              | 20                              | 20                                              | 1                                             |
+| Daily  multiple times                              | 30                              | 30                                              | 1                                             |
+
+
+Diese Tabelle basiert auf den Informationen aus dem Bild, das du gesendet hast. Wenn du weitere Hilfe benötigst oder spezifische Anpassungen wünschst, lass es mich wissen! 😊
 
 ### Reporting
 - **Findings**: Document the audit findings, including any weaknesses or non-compliance issues.
