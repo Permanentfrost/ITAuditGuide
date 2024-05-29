@@ -65,9 +65,6 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
 > Guide incomplete...to be finalized
 
 
-### IT Operation
-
-
 ## IT Operations
 
 ### IT Environment / IT Strategy / IT Security Concept / IT Organization
@@ -165,47 +162,95 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
   - [ ] **GDPR Compliance**: The organization meets the requirements of the GDPR and the BDSG.
   - [ ] **Incident Response**: Procedures are in place to respond appropriately to data protection incidents.
 
-### Access Management
 
-#### Authentication
+## Access Management
 
-- [ ] Authentication mechanisms (e.g., 2FA, SSO).
-- [ ] User access review logs.
+### Authentication
 
-#### User Application Process
+- [ ] **User Identification**
+  - [ ] **Internal Users**: All internal users of the relevant accounting system and their databases are clearly identifiable.
+  - [ ] **External Users**: All external users, including contractors and vendors, are properly identified.
+  - [ ] **Temporary Users**: Temporary user accounts are managed with clear identification and limited access.
 
-- [ ] User application process documentation.
-- [ ] User provisioning and de-provisioning logs.
+- [ ] **Access Control Policies**
+  - [ ] **Role-Based Access**: Access is granted based on clearly defined roles and responsibilities.
+  - [ ] **Minimum Access Principle**: Access granted corresponds to the minimum necessary to perform job functions.
+  - [ ] **Access Reviews**: Regular reviews of user access rights are conducted to ensure compliance with access control policies.
 
-#### Password & Account Lockout Policies (Parameter Settings)
+### User Application Process
 
-- [ ] Password policies.
-- [ ] Account lockout policies.
+- [ ] **Authorization Assignment**
+  - [ ] **Formal Process**: The assignment of authorizations (new, change, deactivate, delete) is subject to a formal, documented process.
+  - [ ] **Timely Implementation**: Authorizations are implemented promptly to minimize security risks.
+  - [ ] **Separation of Functions**: The process respects the separation of functions principle (application, approval, allocation).
 
-#### Authorization Concept
+- [ ] **User Provisioning**
+  - [ ] **Onboarding**: New users are onboarded with appropriate access rights.
+  - [ ] **Modification**: Changes to user access are documented and approved.
+  - [ ] **Deactivation**: Deactivation of user access is promptly handled when no longer needed.
 
-- [ ] Authorization concept (e.g., need-to-know principle, separation of functions).
-- [ ] Role-based access control (RBAC) documentation.
+### Password & Account Lockout Policies (Parameter Settings)
 
-#### Administrative Rights, Privileged Users
+- [ ] **Password Policies**
+  - [ ] **Password Complexity**: Clear specifications define the complexity requirements for passwords.
+  - [ ] **Password History**: Parameters are set to prevent the reuse of recent passwords.
+  - [ ] **Password Expiry**: Passwords are set to expire after a defined period.
 
-- [ ] List of users with administrative rights.
-- [ ] Policies for managing privileged accounts.
+- [ ] **Account Lockout Policies**
+  - [ ] **Incorrect Login Attempts**: Parameters define the number of incorrect login attempts before account lockout.
+  - [ ] **Lockout Duration**: The duration of the account lockout period is defined.
+  - [ ] **Unlock Procedures**: Procedures for unlocking accounts are documented and secure.
 
-#### Critical Operating System Level Permissions
+### Authorization Concept (Need-to-Know Principle, Separation of Functions, etc.)
 
-- [ ] List of critical OS level permissions.
-- [ ] Review logs of permissions changes.
+- [ ] **Authorization Framework**
+  - [ ] **Role Concepts**: An authorization concept for all audit-relevant systems ensures the assignment of authorizations via role concepts.
+  - [ ] **Need-to-Know Principle**: Access is granted based on the need-to-know principle to enhance security.
+  - [ ] **Separation of Functions**: The principle of separation of functions is enforced to prevent conflicts of interest and fraud.
 
-#### Access Databases
+- [ ] **Compliance**
+  - [ ] **Data Protection Regulations**: Data protection regulations, such as GDPR, are considered and integrated into the authorization concept.
+  - [ ] **Documentation**: The authorization concept is documented and accessible to relevant personnel.
 
-- [ ] Access control policies for databases.
-- [ ] Database access logs.
+### Administrative Rights, Privileged Users
 
-#### Access Network
+- [ ] **Scope of Authorization**
+  - [ ] **Minimum Privileges**: The scope of authorization for administrators and highly privileged users is limited to a necessary minimum.
+  - [ ] **No Collective Users**: There are no collective or shared user accounts.
+  - [ ] **No Anonymous Accounts**: Anonymous accounts are prohibited.
 
-- [ ] Network access control policies.
-- [ ] Network access logs.
+- [ ] **Logging and Monitoring**
+  - [ ] **Action Logging**: Actions performed by administrators and privileged users are logged.
+  - [ ] **Regular Audits**: Regular audits of privileged user activities are conducted to detect and respond to unauthorized actions.
+
+### Critical Operating System Level Permissions
+
+- [ ] **Permission Management**
+  - [ ] **Minimal Permissions**: Critical permissions at the operating system level are assigned according to the minimum principle.
+  - [ ] **Privileged Access Logging**: Privileged access is logged and regularly reviewed.
+
+- [ ] **Access Reviews**
+  - [ ] **Periodic Reviews**: Periodic reviews of critical operating system level permissions are conducted to ensure appropriateness.
+  - [ ] **Revocation Procedures**: Procedures for revoking unnecessary permissions are documented and implemented.
+
+### Access Databases
+
+- [ ] **Database Access Control**
+  - [ ] **Restricted Access**: Only a few authorized administrators have access to the relevant database content.
+  - [ ] **Emergency Access**: There is an emergency user concept in place for critical situations.
+  - [ ] **Access Logging**: Access to databases is logged and monitored.
+
+### Access Network
+
+- [ ] **Network Access Control**
+  - [ ] **VPN Access**: Network access from outside (e.g., field staff, home office workplaces) is only possible via VPN.
+  - [ ] **Hardware Requirements**: Access is restricted to company-approved hardware (e.g., company computer).
+  - [ ] **Two-Factor Authentication**: Two-factor authentication (2FA), such as via mobile phone, is required for network access.
+
+- [ ] **Security Monitoring**
+  - [ ] **Intrusion Detection**: Network access points are monitored for unauthorized access attempts.
+  - [ ] **Access Logs**: Network access logs are maintained and reviewed for suspicious activities.
+
 
 ### Change Management
 
