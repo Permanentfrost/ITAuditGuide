@@ -252,47 +252,87 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
   - [ ] **Access Logs**: Network access logs are maintained and reviewed for suspicious activities.
 
 
-### Change Management
+## Change Management
 
-#### Concept / Process Documentation for Change Management
+### Concept / Process Documentation for Change Management
 
-- [ ] Change management policies.
-- [ ] Documentation of change management process.
+- [ ] **Change Management Framework**
+  - [ ] **Documentation**: There are dedicated concepts for the change management process, which are documented and accessible to all relevant personnel.
+  - [ ] **Employee Awareness**: All employees involved in the change management process are aware of and understand the documented concepts.
 
-#### Changes Beyond the Regular Updates
+- [ ] **Process Workflow**
+  - [ ] **Clear Procedures**: The process for managing changes is clearly defined, including initiation, approval, implementation, and review steps.
+  - [ ] **Roles and Responsibilities**: Responsibilities within the change management process are clearly assigned and documented.
 
-- [ ] List of changes beyond regular updates.
-- [ ] Documentation of change approvals.
+### Changes Beyond the Regular Updates
 
-#### Approval Process for Changes
+- [ ] **Change Management Process**
+  - [ ] **Defined Process**: A process for handling changes beyond regular updates is defined and includes all responsibilities and steps.
+  - [ ] **Risk Assessment**: Changes are assessed for potential risks and impact on operations.
 
-- [ ] Change approval workflow.
-- [ ] Logs of change approvals.
+- [ ] **Change Documentation**
+  - [ ] **Comprehensive Records**: All changes are documented with details on the nature of the change, reasons, and expected impact.
+  - [ ] **Approval and Testing**: Documentation includes evidence of approval and results from testing before implementation.
 
-#### Testing Process and System
+### Approval Process for Changes
 
-- [ ] Testing procedures.
-- [ ] Test environment documentation.
+- [ ] **Separation of Duties**
+  - [ ] **Function Separation**: There is a clear separation of functions between the responsible positions in the process, ensured by technical and organizational measures.
+  - [ ] **Conflict of Interest**: Measures are in place to prevent conflicts of interest during the approval process.
 
-#### Customizing
+- [ ] **Traceability**
+  - [ ] **Logging**: The change management process is clearly traceable through logs and records maintained in the system.
+  - [ ] **Audit Trail**: An audit trail is maintained for all changes, showing approval and implementation history.
 
-- [ ] Documentation of system customizations.
-- [ ] Approval logs for customizations.
+### Testing Process and System
 
-#### Parameterization
+- [ ] **Testing Procedures**
+  - [ ] **Comprehensive Testing**: All software changes, including patches, are tested using predefined test cases before going live.
+  - [ ] **Error Handling**: There is a documented process for error handling during the testing phase.
 
-- [ ] Parameterization policies.
-- [ ] Parameter changes logs.
+- [ ] **Logging Test Results**
+  - [ ] **Documentation**: Test results are logged and documented, including any issues identified and resolutions applied.
+  - [ ] **Approval for Production**: Changes are only moved to production after successful testing and documented approval.
 
-#### Effectiveness of the Change Management Process
+### Customizing
 
-- [ ] Metrics for assessing change management effectiveness.
-- [ ] Review reports of change management process.
+- [ ] **Customization Process**
+  - [ ] **Specification Documentation**: Individual system customizations are made in accordance with documented and approved specifications.
+  - [ ] **Traceability**: Customizations are traceable and can be assigned to the appropriate roles and individuals.
 
-#### Data Conversions
+- [ ] **Approval and Review**
+  - [ ] **Authorized Changes**: Customizations are only implemented after formal approval from authorized personnel.
+  - [ ] **Review Process**: Customizations undergo regular reviews to ensure they remain aligned with business requirements and do not introduce security risks.
 
-- [ ] Documentation of data conversion processes.
-- [ ] Logs of data conversion activities.
+### Parameterization
+
+- [ ] **Parameter Settings**
+  - [ ] **Documentation**: Individual system settings (parameterization) are documented in accordance with approved specifications.
+  - [ ] **Change Control**: Changes to parameters are controlled and tracked, ensuring they can be traced back to authorized personnel.
+
+- [ ] **Effectiveness Checks**
+  - [ ] **Regular Reviews**: Parameter settings are regularly reviewed for effectiveness and compliance with security and operational standards.
+
+### Effectiveness of the Change Management Process
+
+- [ ] **Process Monitoring**
+  - [ ] **Performance Metrics**: There is an overview of all changes/patches in the reporting period, with metrics collected to assess the effectiveness of the change management process.
+  - [ ] **Compliance Checks**: Regular checks are performed to ensure the process complies with internal policies and external regulations.
+
+- [ ] **Documentation and Evidence**
+  - [ ] **Change Logs**: Protocols and evidence of all changes are available and maintained for audit purposes.
+  - [ ] **Audit Reviews**: Periodic audits are conducted to evaluate the change management process and its effectiveness.
+
+### Data Conversions
+
+- [ ] **Conversion Management**
+  - [ ] **Overview**: There is an overview of all data conversions in the reporting period.
+  - [ ] **Testing and Approval**: The test and release process for data conversions is clearly visible and documented.
+
+- [ ] **Protocols and Evidence**
+  - [ ] **Logging**: Protocols for data conversions are maintained, showing the steps taken and approvals received.
+  - [ ] **Evidence of Effectiveness**: Evidence of successful data conversions is available, demonstrating compliance with the change management process.
+
 
 ### Interfaces / APIs
 
