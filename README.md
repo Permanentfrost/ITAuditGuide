@@ -334,42 +334,83 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
   - [ ] **Evidence of Effectiveness**: Evidence of successful data conversions is available, demonstrating compliance with the change management process.
 
 
-### Interfaces / APIs
+## Interfaces / APIs
 
-#### Overview of the Data Flows
+### Overview of the Data Flow Between the Individual Systems
 
-- [ ] Data flow diagrams.
-- [ ] Documentation of data flows between systems.
+- [ ] **Data Flow Documentation**
+  - [ ] **Data Flow Diagrams**: Detailed diagrams illustrating the data flow between all relevant systems are available and up-to-date.
+  - [ ] **System Interactions**: Descriptions of how systems interact and exchange data are documented and understandable.
 
-#### What Data is Transferred?
+- [ ] **Complexity Classification**
+  - [ ] **Data Flow Analysis**: An analysis to classify the complexity of data flows between systems is conducted and documented.
+  - [ ] **Impact Assessment**: Potential impacts of data flow issues on business processes are assessed and documented.
 
-- [ ] List of data types transferred between systems.
-- [ ] Security measures for data transfers.
+### What Data is Transferred?
 
-#### Documentation for Checks / Reconciliation Checks Regarding the (Automatic and Manual) Data Transfers
+- [ ] **Data Inventory**
+  - [ ] **Data Types**: A comprehensive inventory of the types of data transferred between systems is maintained.
+  - [ ] **Data Sensitivity**: Classification of data based on sensitivity and criticality is documented.
 
-- [ ] Reconciliation check procedures.
-- [ ] Logs of reconciliation checks.
+- [ ] **Data Transfer Policies**
+  - [ ] **Data Transfer Rules**: Clear rules and policies governing data transfers between systems are established.
+  - [ ] **Compliance**: Data transfer policies comply with relevant regulations and standards.
 
-#### Automatic Interfaces
+### Documentation for Checks / Reconciliation Checks Regarding the (Automatic and Manual) Data Transfers
 
-- [ ] Documentation of automatic interfaces.
-- [ ] Logs of interface operations.
+- [ ] **Control Implementation**
+  - [ ] **Automatic Controls**: Controls to ensure complete and correct automatic data transfers are implemented and documented.
+  - [ ] **Manual Controls**: Controls for manual data transfers, including reconciliation checks, are implemented and documented.
 
-#### Semi-Automated Interfaces
+- [ ] **Reconciliation Procedures**
+  - [ ] **Regular Checks**: Regular reconciliation checks are performed to ensure data integrity between systems.
+  - [ ] **Error Handling**: Procedures for identifying and resolving discrepancies during data transfers are documented.
 
-- [ ] Documentation of semi-automated interfaces.
-- [ ] Logs of semi-automated interface operations.
+### Automatic Interfaces
 
-#### Manual Interfaces
+- [ ] **Automation Implementation**
+  - [ ] **Effectiveness of Controls**: Controls for fully automated interfaces are effectively implemented.
+  - [ ] **Error Logging**: Automated error logging is in place to capture any issues during data transfers.
 
-- [ ] Documentation of manual interfaces.
-- [ ] Logs of manual interface operations.
+- [ ] **Troubleshooting Procedures**
+  - [ ] **Error Resolution**: Procedures for troubleshooting and resolving errors in automatic interfaces are documented.
+  - [ ] **Response Time**: Defined response times for addressing and resolving interface errors are established.
 
-#### Identification of Faulty Batch Runs
+### Semi-Automated Interfaces
 
-- [ ] Procedures for identifying faulty batch runs.
-- [ ] Logs of batch run errors and resolutions.
+- [ ] **Control Mechanisms**
+  - [ ] **Data Transfer Controls**: Controls ensure the complete and correct transfer of data in semi-automated interfaces.
+  - [ ] **Manual Oversight**: Manual oversight is in place to monitor and verify semi-automated data transfers.
+
+- [ ] **Verification Processes**
+  - [ ] **Reconciliation Sums**: Reconciliation actions, such as voting sums, are performed regularly to ensure data integrity.
+  - [ ] **Error Handling**: Procedures for identifying and addressing errors in semi-automated transfers are documented.
+
+### Manual Interfaces
+
+- [ ] **Coordination Actions**
+  - [ ] **Regular Coordination**: Regular coordination actions are carried out between the transmitting and receiving systems to control manual data transfers.
+  - [ ] **Data Integrity Checks**: Checks to ensure data integrity during manual transfers are performed and documented.
+
+- [ ] **Documentation**
+  - [ ] **Manual Transfer Logs**: Logs are maintained for all manual data transfers, capturing details of the transfer process.
+  - [ ] **Error Resolution**: Procedures for resolving errors during manual transfers are documented and followed.
+
+### Identification of Faulty Batch Runs
+
+- [ ] **Batch Run Logging**
+  - [ ] **Error Logs**: Batch runs are logged, and any errors encountered are recorded in detail.
+  - [ ] **Monitoring**: Batch runs are regularly monitored to detect and address errors promptly.
+
+- [ ] **Error Handling Procedures**
+  - [ ] **Identification and Resolution**: Procedures for identifying and resolving faulty batch runs are documented.
+  - [ ] **Preventive Measures**: Preventive measures to reduce the occurrence of faulty batch runs are implemented and reviewed regularly.
+
+- [ ] **Review and Audit**
+  - [ ] **Regular Audits**: Regular audits of batch run logs and error handling procedures are conducted to ensure effectiveness.
+  - [ ] **Continuous Improvement**: Feedback from audits is used to continuously improve the processes related to batch runs.
+
+
 
 
 
