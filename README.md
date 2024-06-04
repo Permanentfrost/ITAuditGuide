@@ -104,7 +104,7 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
   - [ ] **Update Frequency**: The inventory is regularly updated to reflect any changes.
   - [ ] **Ownership and Accountability**: Each piece of hardware is assigned an owner responsible for its maintenance and security.
 
-### Physical Security
+### Physical Security and Business Continuity Management (BCM)
 
 - [ ] **Physical Protective Measures**
   - [ ] **Premises Security**: Physical protective measures against burglary, theft, and vandalism are implemented.
@@ -441,6 +441,8 @@ Goal: Standardize all used Terms here. / Explain them short and brief. List To b
 **Access Control List (ACL)**: A table that tells a computer operating system which access rights each user has to a particular system object, like a file directory or individual file.
 
 **Advanced Persistent Threat (APT)**: A stealthy threat actor, typically a nation-state or state-sponsored group, which gains unauthorized access to a computer network and remains undetected for an extended period.
+
+**Business Continuity Management (BCM)**: Business Continuity Management is a crucial process designed to ensure that vital business operations and essential functions remain accessible, or are swiftly restored during emergencies. The goal of BCM is to prevent these disruptions from causing irreparable harm to the business.
 
 **Baseline Security**: The minimum level of security that a system, network, or program must adhere to in order to be considered secure.
 
