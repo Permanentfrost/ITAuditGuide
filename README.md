@@ -97,6 +97,13 @@ Below is a guide that aims to provide **concise** walkthrough for needed documen
   - [ ] **Reporting Channels**: Clear reporting channels are established.
   - [ ] **Functional Separation**: The principle of functional separation is implemented to prevent conflicts of interest and reduce risk.
 
+### Supply Chain Risk Management
+
+- [ ] **Supply Chain Risk Management Practices**
+  - [ ] **Integration**: Supply chain risk management practices are integrated to mitigate cybersecurity risks as recommended by NIST SP 800-161r1.
+  - [ ] **Supplier Security**: Visibility into and control over suppliers' security practices are established.
+  - [ ] **Risk Strategy**: A strategy for assessing and managing supply chain risks throughout the IT product and service lifecycle is developed.
+
 ### Hardware / Networks
 
 - [ ] **Inventory Management**
